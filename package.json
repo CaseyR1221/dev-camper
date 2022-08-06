@@ -1,0 +1,27 @@
+{
+  "name": "dev-camper",
+  "version": "1.0.0",
+  "description": "\"Backend for the Dev Camper app\"",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production && node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaseyR1221/dev-camper.git"
+  },
+  "author": "Casey Rowlands",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CaseyR1221/dev-camper/issues"
+  },
+  "homepage": "https://github.com/CaseyR1221/dev-camper#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  }
+}
